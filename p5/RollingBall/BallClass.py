@@ -10,7 +10,7 @@ class Ball:
         self.gravity=p5.Vector(0,1)
         self.g=1
 
-        
+
     def show(self):
         p5.circle((self.pos.x,self.pos.y),self.r*2)
 
@@ -20,11 +20,10 @@ class Ball:
     def updatePos(self,other):
         if self.touching:
             angle=self.relativePos(other).angle_between(p5.Vector(0,1))
-            self.acc=self.g*np.sin(angle)
-            self.vel+=self.acc
+            self.vel.y+=self.gravity.y*np.sin(angle)
+ 
         else:
             self.vel+=self.gravity
-
         self.pos+=self.vel
 
     def collision(self,other):
@@ -38,5 +37,8 @@ class Ball:
             rel*=-1
             rel*=distanceInside
             self.pos+=rel
+            print(rel)
+            print("touching")
         else:
             self.touching=False
+            print("not touching")

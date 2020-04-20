@@ -4,8 +4,8 @@ from BallClass import *
 def setup():
     global smallBall,bigBall
     p5.size(500,500)
-    bigBall=Ball(width/2,height,200,[0,0])
-    smallBall=Ball(width/2,height-220,20,[1,0])
+    bigBall=Ball(width/2,height,150,[0,0])
+    smallBall=Ball(width/2,height-500,10,[0,0])
 
 def draw():
     global smallBall,bigBall

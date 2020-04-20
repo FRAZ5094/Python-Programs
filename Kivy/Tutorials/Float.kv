@@ -1,0 +1,21 @@
+#:kivy 1.11.1
+<Button>:
+#parent tag for button means all buttons have these properties
+    font_size:40
+    color:0.3,0.6,0.7,1
+    size_hint: 0.3,0.5
+    #width,height
+
+<FloatLayout>:
+#applies to all float layouts in program
+    Button:
+        pos_hint: {"x":0.5,"top":1}
+        #"x" is from botton left of screen
+        #"top" is from top left of widget
+        text: "Tech With"
+    Button:
+        id: btn
+        pos_hint:{"y":0.3}
+        text: "Tim" if btn.state =="normal" else "Down"
+        #normal state is if button is not being pressed
+        background_color: 0.3,0.4,0.5,1

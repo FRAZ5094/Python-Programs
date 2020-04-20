@@ -1,0 +1,11 @@
+import numpy as np 
+CSV=np.loadtxt("SampleData.csv",delimiter=",")
+CSV_row_count=len(CSV[0]) #number of columns
+CS_column_count=len(CSV) #number of rows
+CSVedit=np.insert(CSV,[0],Rowtoinsert,axis=0) #inserts row at row [0]
+CSVedit=np.insert(CSV,[0],Columntoinsert,axis=1) #inserts column at column [0]
+NewCSV=np.c_[CSV,NewColumn] #adds new column
+NewCSV=np.r_[CSV,NewRow] #adds new row
+NewCSV=np.delete(CSV,[-1],axis=1) #deletes last row
+NewCSV=np.delete(array,-1,axis=0) #deletes last column
+Array[row,columm] 

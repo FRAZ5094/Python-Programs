@@ -1,0 +1,35 @@
+#:kivy 1.0.9
+<MyGrid>:
+
+    name: name
+    email: email
+
+
+
+    GridLayout:
+        cols:1
+        size:root.width, root.height
+        #pos: 100, 100
+        GridLayout:
+            cols:2
+
+            Label:
+                text: "Name: "
+                font_size: 40
+            TextInput:
+                id: name
+                multiline:False
+                font_size: 40
+
+            Label:
+                text:"Email: "
+                font_size: 40
+            TextInput:
+                id: email
+                multiline:False
+                font_size: 40
+        Button:
+            text:"Submit"
+            on_press: root.btn()
+            size_hint: 1,0.2
+            font_size: 40

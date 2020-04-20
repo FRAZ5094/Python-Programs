@@ -1,0 +1,35 @@
+#:kivy 1.11.1
+
+
+<PongGame>:
+    GridLayout:
+        size: root.width, root.height
+        cols:1
+        GridLayout:
+            cols:2
+            RelativeLayout:
+                canvas:
+                    Ellipse:
+                        pos: (self.width/2)-12.5,(self.height/2)-12.5
+                        size: 25,25
+                    Rectangle:
+                        pos: self.center_x-5,0
+                        size: 10, self.height
+
+                Label:
+                    font_size: 50
+                    center_x: self.width / 4
+                    center_y:self.height*(3/4)
+                    text: "0"
+                    
+                Label:
+                    font_size: 50
+                    center_x: self.width*(3/4)
+                    center_y:self.height*(3/4)
+                    text: "0"
+            Button:
+                text: "Right of game"
+                size_hint:0.2,0.5
+        Button:
+            size_hint:0.1,0.2
+            text: "Outside Game"

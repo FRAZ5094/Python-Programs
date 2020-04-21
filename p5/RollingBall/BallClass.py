@@ -9,6 +9,7 @@ class Ball:
         self.r=r
         self.gravity=p5.Vector(0,1)
         self.g=1
+        self.touching=False
 
 
     def show(self):
@@ -21,23 +22,20 @@ class Ball:
         if self.touching:
             angle=self.relativePos(other).angle_between(p5.Vector(0,1))
             self.vel.y+=self.gravity.y*np.sin(angle)
- 
         else:
             self.vel+=self.gravity
+        
+        self.vel.limit(other.r-1)
         self.pos+=self.vel
 
     def collision(self,other):
+        
         rel=self.relativePos(other)
-        mag=abs(rel)
 
-        if mag<=self.r+other.r:
+        if abs(rel)<=self.r+other.r:
             self.touching=True
-            distanceInside=other.r+self.r-mag
             rel.normalize()
-            rel*=-1
-            rel*=distanceInside
-            self.pos+=rel
-            print(rel)
+            self.pos=other.pos-(self.r+other.r)*rel
             print("touching")
         else:
             self.touching=False

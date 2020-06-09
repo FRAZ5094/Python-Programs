@@ -3,8 +3,10 @@ from CollisionClasses import *
 
 global Lines
 Lines=[]
-Lines.append(Line((100,100),(200,400)))
-
+Lines.append(Line((100,100),(200,300)))
+Lines.append(Line((330,550),(580,50)))
+Lines.append(Line((500,300),(600,100)))
+Lines.append(Line((0,50),(600,50)))
 
 def setup():
     global ball
@@ -19,9 +21,10 @@ def draw():
     ball.show()
     for i in range(len(Lines)):
         Lines[i].show()
+        ball.drawProjectionLine(Lines[i])
 
-    LinetoCircle=ball.pos-Lines[0].p1
+    #p5.line((Lines[0].p1),(Lines[0].p1+LinetoCircle))
 
-    p5.line((Lines[0].p1),(Lines[0].p1+LinetoCircle))
-    ball.drawProjectionLine(Lines[0])
+    #ball.drawProjectionLine(Lines[0])
+
 p5.run()

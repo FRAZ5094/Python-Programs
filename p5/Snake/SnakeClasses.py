@@ -12,10 +12,6 @@ class Snake:
 
     def update(self):
 
-        for i in range(self.length-1):
-            self.tail[i]=self.tail[i+1]
-        self.tail[self.length-1]=p5.Vector(self.pos.x,self.pos.y)
-
         self.pos+=self.vel*self.scl
         self.pos.x=p5.constrain(self.pos.x,0,width-self.scl)
         self.pos.y=p5.constrain(self.pos.y,0,height-self.scl)

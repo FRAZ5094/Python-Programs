@@ -5,7 +5,7 @@ def setup():
     global smallBall,bigBall
     p5.size(500,500)
     bigBall=Ball(width/2,height/2,150,[0,0])
-    smallBall=Ball(width/2,height/2-160,10,[5,0])
+    smallBall=Ball(width/2,height/2-160,10,[0.01,0])
 
 def draw():
     global smallBall,bigBall

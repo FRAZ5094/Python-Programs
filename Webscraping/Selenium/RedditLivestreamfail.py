@@ -1,10 +1,8 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 import requests
 from bs4 import BeautifulSoup
 import smtplib
 import time
-#driver=webdriver.Chrome(r"C:\Users\frase\Downloads\chromedriver.exe")
 
 def Open_URLS_in_tabs(URLS,FirstTab):
     driver=webdriver.Chrome(r"C:\Users\frase\Downloads\chromedriver.exe")    

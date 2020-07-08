@@ -32,7 +32,7 @@ soup=BeautifulSoup(page.content,"lxml")
 end=time.perf_counter()
 print("loaded in {} seconds".format(round(end-start,2)))
 
-PostN=25
+PostN=50
 #PostN=int(input("How many Clips do you want to watch?\n"))
 
 

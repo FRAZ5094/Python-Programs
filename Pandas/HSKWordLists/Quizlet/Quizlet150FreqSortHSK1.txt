@@ -1,0 +1,301 @@
+的
+
+(de),indicates possession, like adding 's to a noun%我
+
+(wǒ),I; me%了
+
+(le),indicates a completed or finished action%你
+
+(nǐ),you (singular)%是
+
+(shì),be; is; are; am%在
+
+(zài),at; on; in; indicates an action in progress%有
+
+(yǒu),have%不
+
+(bù),no; not%个
+
+(ge),general measure word%好
+
+(hǎo),good%人
+
+(rén),person; man; people%都
+
+(dōu),all; both%这
+
+(zhè),this%去
+
+(qù),go; to leave%说
+
+(shuō),speak%和
+
+(hé),and; with%很
+
+(hěn),very; quite%会
+
+(huì),know how to%看
+
+(kàn),see; look at; to watch%来
+
+(lái),come; arrive; ever since; next%上
+
+(shàng),above; up%想
+
+(xiǎng),think; believe; suppose; would like to%他
+
+(tā),he; him%我们
+
+(wǒ men),we; us%爱
+
+(ài),love%大
+
+(dà),big; large%太
+
+(tài),too (much)%吃
+
+(chī),eat%年
+
+(nián),year%没有
+
+(méi yǒu),not have; there is not%那
+
+(nà),that; then%能
+
+(néng),can; be able%做
+
+(zuò),do; make%小
+
+(xiǎo),small; young%什么
+
+(shén me),what? (replaces the noun to turn a statement into a question)%今天
+
+(jīn tiān),today%呢
+
+(ne),indicates a question; how about...?;%喜欢
+
+(xǐ huan),to like%吗
+
+(ma),indicates a yes/no question (added to a statement)%下
+
+(xià),fall; below%她
+
+(tā),she%现在
+
+(xiàn zài),now%时候
+
+(shí hou),time%里
+
+(lǐ),inside; Chinese mile (~.5 km)%月
+
+(yuè),moon; month%谁
+
+(shéi),who%怎么
+
+(zěn me),how?%家
+
+(jiā),family; home%买
+
+(mǎi),to buy%请
+
+(qǐng),please; invite; to treat someone to something%叫
+
+(jiào),to be called%水
+
+(shuǐ),water%中国
+
+(zhōng guó),China%明天
+
+(míng tiān),tomorrow%朋友
+
+(péng you),friend%东西
+
+(dōng xi),things; stuff%听
+
+(tīng),listen; hear%开
+
+(kāi),to open; to start; to operate (a vehicle)%几
+
+(jǐ),how many; several; a few%喝
+
+(hē),to drink%回
+
+(huí),to return; to reply; to go back%钱
+
+(qián),money; coin%号
+
+(hào),number; day of a month%岁
+
+(suì),years old; age%谢谢
+
+(xiè xie),thank you%冷
+
+(lěng),cold%工作
+
+(gōng zuò),work; a job%写
+
+(xiě),to write; to compose%住
+
+(zhù),to live; reside; to stop%睡觉
+
+(shuì jiào),to sleep; go to bed%少
+
+(shǎo),few; little%狗
+
+(gǒu),dog%本
+
+(běn),measure word for books%电影
+
+(diàn yǐng),movie; film%妈妈
+
+(mā ma),mom; mum%多少
+
+(duō shao),how much?; how many?%哪
+
+(nǎ),which; how%坐
+
+(zuò),sit%分钟
+
+(fēn zhōng),minute; (measure word for time)%老师
+
+(lǎo shī),teacher%昨天
+
+(zuó tiān),yesterday%字
+
+(zì),letter; character%下午
+
+(xià wǔ),afternoon%北京
+
+(běi jīng),Beijing%猫
+
+(māo),cat%块
+
+(kuài),lump; piece; sum of money%学习
+
+(xué xí),learn; to study%热
+
+(rè),heat; hot%电脑
+
+(diàn nǎo),computer%漂亮
+
+(piào liang),pretty; beautiful%同学
+
+(tóng xué),fellow student; schoolmate%书
+
+(shū),book; letter%学校
+
+(xué xiào),school%天气
+
+(tiān qì),weather%爸爸
+
+(bà ba),Dad%菜
+
+(cài),dish (type of food); vegetables%认识
+
+(rèn shi),recognize; know (a person)%苹果
+
+(píng guǒ),apple%看见
+
+(kàn jiàn),see; catch sight of%些
+
+(xiē),some; few; several%名字
+
+(míng zi),name%茶
+
+(chá),tea%读
+
+(dú),to read; to study%学生
+
+(xué sheng),student%中午
+
+(zhōng wǔ),noon; midday%儿子
+
+(ér zi),son%喂
+
+(wèi),hello (on the phone)%对不起
+
+(duì bu qǐ),sorry%电视
+
+(diàn shì),television; TV%打电话
+
+(dǎ diàn huà),make a phone call%后面
+
+(hòu mian),back; behind%高兴
+
+(gāo xìng),happy; glad%女儿
+
+(nǚ ér),daughter%医院
+
+(yī yuàn),hospital%水果
+
+(shuǐ guǒ),fruit%星期
+
+(xīng qī),week%怎么样
+
+(zěn me yàng),how about?; how is/was it?%上午
+
+(shàng wǔ),late morning (before noon)%下雨
+
+(xià yǔ),to rain%再见
+
+(zài jiàn),goodbye; see you later%医生
+
+(yī shēng),doctor%前面
+
+(qián miàn),in front%先生
+
+(xiān sheng),Mr.; Sir%飞机
+
+(fēi jī),airplane%小姐
+
+(xiǎo jie),young lady; miss; Ms.%哪儿
+
+(nǎ r),where? (Beijing accent)%没关系
+
+(méi guān xi),it doesn't matter; never mind%杯子
+
+(bēi zi),cup; glass%桌子
+
+(zhuō zi),table; desk%汉语
+
+(hàn yǔ),Chinese language%米饭
+
+(mǐ fàn),(cooked) rice%椅子
+
+(yǐ zi),chair%出租车
+
+(chū zū chē),taxi; cab%商店
+
+(shāng diàn),shop; store%饭店
+
+(fàn diàn),restaurant; hotel%一点儿
+
+(yì diǎn r),a bit; a few%不客气
+
+(bú kè qi),you're welcome; don't be polite%八
+
+(bā),eight%点
+
+(diǎn),a dot; a little; o'clock%多
+
+(duō),many%二
+
+(èr),two%九
+
+(jiǔ),nine%六
+
+(liù),six%七
+
+(qī),seven%三
+
+(sān),three%十
+
+(shí),ten%四
+
+(sì),four%五
+
+(wǔ),five%一
+
+(yī),one; once; a%衣服
+
+(yī fu),clothes%

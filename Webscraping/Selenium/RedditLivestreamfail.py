@@ -22,6 +22,9 @@ def Open_URLS_in_tabs(URLS,FirstTab):
 FileExists=os.path.exists(LogFileName)
 if FileExists:
     LogFile=np.genfromtxt(LogFileName,dtype='str')
+    if len(LogFile)>100:
+        LogFile=LogFile[:50]
+
 
 URL="https://old.reddit.com/r/LivestreamFail/"
 headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 OPR/68.0.3618.191"}
@@ -32,7 +35,7 @@ soup=BeautifulSoup(page.content,"lxml")
 end=time.perf_counter()
 print("loaded in {} seconds".format(round(end-start,2)))
 
-PostN=25
+PostN=50
 #PostN=int(input("How many Clips do you want to watch?\n"))
 
 
@@ -69,7 +72,7 @@ if len(ClipURLS)>=1:
     print(" ")
     n=input("Open clips? y/n\n")
 else:
-    n=input("no clips you haven't seen today found...\nClear the log? y/n")
+    n=input("no clips you haven't seen found...\nClear the log? y/n")
     if n=="y":
         os.remove(LogFileName)
 
@@ -80,13 +83,8 @@ if n=="y" and len(ClipURLS)>=1:
     end=time.perf_counter()
     print("{} Clips loaded in {} seconds".format(len(ClipURLS),round(end-start,2)))
     if FileExists:
-        if LogFile[0]==str(date.today()):
             ClipURLS=np.append(LogFile,ClipURLS)
-        else:
-            ClipURLS=np.append(str(date.today()),ClipURLS)
-    else:
-        ClipURLS=np.append(str(date.today()),ClipURLS)
-        
+            
     np.savetxt(LogFileName,np.unique(ClipURLS),fmt="%s")
     n=input("Press to Exit\n")
     driver.quit()

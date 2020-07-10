@@ -10,7 +10,7 @@ LogFileName=r"Today-Log.txt"
 
 def Open_URLS_in_tabs(URLS,FirstTab):
     global driver
-    driver=webdriver.Chrome(r"C:\Users\frase\Downloads\chromedriver.exe")    
+    driver=webdriver.Chrome(r"chromedriver.exe")    
     if FirstTab=="no":
         driver.get(URLS[0])
         URLS.pop(0)
@@ -72,7 +72,7 @@ if len(ClipURLS)>=1:
     print(" ")
     n=input("Open clips? y/n\n")
 else:
-    n=input("no clips you haven't seen found...\nClear the log? y/n")
+    n=input("no clips you haven't seen found...\nClear the log? y/n\n")
     if n=="y":
         os.remove(LogFileName)
 

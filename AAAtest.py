@@ -1,1 +1,1 @@
-from pykinect2 import PyKinectV2
+print("Hello World")

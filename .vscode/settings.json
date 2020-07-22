@@ -1,24 +1,24 @@
 {
     "code-runner.customCommand": "java -jar processing-py.jar Processing/Bruh.py",
     "workbench.colorCustomizations": {
-        "activityBar.background": "#003d80",
-        "activityBar.activeBorder": "#df006a",
+        "activityBar.background": "#003266",
+        "activityBar.activeBorder": "#bf005e",
         "activityBar.foreground": "#e7e7e7",
         "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#df006a",
+        "activityBarBadge.background": "#bf005e",
         "activityBarBadge.foreground": "#e7e7e7",
-        "titleBar.activeBackground": "#00254d",
-        "titleBar.inactiveBackground": "#00254d99",
+        "titleBar.activeBackground": "#001933",
+        "titleBar.inactiveBackground": "#00193399",
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveForeground": "#e7e7e799",
-        "statusBar.background": "#00254d",
-        "statusBarItem.hoverBackground": "#003d80",
+        "statusBar.background": "#001933",
+        "statusBarItem.hoverBackground": "#003266",
         "statusBar.foreground": "#e7e7e7",
-        "activityBar.activeBackground": "#003d80",
-        "statusBar.border": "#00254d",
-        "titleBar.border": "#00254d"
+        "activityBar.activeBackground": "#003266",
+        "statusBar.border": "#001933",
+        "titleBar.border": "#001933"
     },
-    "peacock.color": "#00254d",
+    "peacock.color": "#001933",
     "python.pythonPath": "D:\\ProgramFiles\\Anaconda\\python.exe"
 
     

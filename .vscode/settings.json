@@ -13,10 +13,13 @@
         "titleBar.inactiveForeground": "#e7e7e799",
         "statusBar.background": "#00254d",
         "statusBarItem.hoverBackground": "#003d80",
-        "statusBar.foreground": "#e7e7e7"
+        "statusBar.foreground": "#e7e7e7",
+        "activityBar.activeBackground": "#003d80",
+        "statusBar.border": "#00254d",
+        "titleBar.border": "#00254d"
     },
     "peacock.color": "#00254d",
-    "python.pythonPath": "C:\\Users\\frase\\Anaconda3\\python.exe"
+    "python.pythonPath": "D:\\ProgramFiles\\Anaconda\\python.exe"
 
     
 }

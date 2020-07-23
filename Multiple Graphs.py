@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt 
 import numpy as np 
-#%matplotlib qt
+%matplotlib qt
 x=np.linspace(0,6*np.pi,100)
 plt.figure(1)
 plt.plot(x,x*2,label="2x")

@@ -1,71 +1,330 @@
-找	try to find; look for; seek; to give change	zhǎo	[sound:找.mp3]	
-不行	not allowed	Bùxíng	[sound:不行.mp3]	
-游戏	game; play; recreation	yóu xì	[sound:游戏.mp3]	
-适合	suitable	Shìhé	[sound:适合.mp3]	
-进来	come in	Jìnlái	[sound:进来.mp3]	
-坏人	bad person	Huàirén	[sound:坏人.mp3]	
-加油	You can do it	Jiāyóu	[sound:加油.mp3]	
+找	try to find	zhǎo	[sound:找.mp3]	
+不行	not allowed	Bù xíng	[sound:不行.mp3]	
+游戏	game	yóu xì	[sound:游戏.mp3]	
+适合	suitable for	Shì hé	[sound:适合.mp3]	
+进来吧	come in	Jìn lái ba&nbsp;	[sound:进来.mp3]	
+坏人	bad person	Huài rén	[sound:坏人.mp3]	
+加油	Come on! (Encouragement)	Jiā yóu	[sound:加油.mp3]	
 集	Episode	Jí	[sound:集.mp3]	
-我还是老样子	The same old thing	Wǒháishìlǎoyàngzi	[sound:我还是老样子.mp3]	
-张婉凝	Zhang Wanning	Zhāngwǎnníng	[sound:张婉凝.mp3]	
-披萨	Pizza	Pīsà	[sound:披萨.mp3]	
-蛋炒饭	Egg fried rice	Dànchǎofàn	[sound:蛋炒饭.mp3]	
-德国	Germany	Déguó	[sound:德国.mp3]	
-俄国	Russia	Éguó	[sound:俄国.mp3]	
-意大利	Italy	Yìdàlì	[sound:意大利.mp3]	
-爱尔兰	Ireland	Ài'ěrlán	[sound:爱尔兰.mp3]	
-加拿大	Canada	Jiānádà	[sound:加拿大.mp3]	
-泰国	Thailand	Tàiguó	[sound:泰国.mp3]	
-汉语水平考试	HSK	Hànyǔshuǐpíngkǎoshì	[sound:汉语水平考试.mp3]	
-苏格兰	Scotland	Sūgélán	[sound:苏格兰.mp3]	
-格拉斯哥	Glasgow	Gélāsīgē	[sound:格拉斯哥.mp3]	
-爱丁堡	Edinburgh	Àidīngbǎo	[sound:爱丁堡.mp3]	
-阿但丁	Aberdeen	Adàndīng	[sound:阿但丁.mp3]	
-魔法	Magic	Mófǎ	[sound:魔法.mp3]	
+我还是老样子	The same old thing	Wǒ hái shì lǎo yàng zi	[sound:我还是老样子.mp3]	
+张婉凝	Zhang Wanning	Zhāng wǎn níng	[sound:张婉凝.mp3]	
+披萨	Pizza	Pī sà	[sound:披萨.mp3]	
+蛋炒饭	Egg fried rice	Dàn chǎo fàn	[sound:蛋炒饭.mp3]	
+德国	Germany	Dé guó	[sound:德国.mp3]	
+俄国	Russia	É guó	[sound:俄国.mp3]	
+意大利	Italy	Yì dà lì	[sound:意大利.mp3]	
+爱尔兰	Ireland	Ài ěr lán	[sound:爱尔兰.mp3]	
+加拿大	Canada	Jiā ná dà	[sound:加拿大.mp3]	
+泰国	Thailand	Tài guó	[sound:泰国.mp3]	
+汉语水平考试	HSK	Hàn yǔ shuǐ píng kǎo shì	[sound:汉语水平考试.mp3]	
+苏格兰	Scotland	Sū gé lán	[sound:苏格兰.mp3]	
+格拉斯哥	Glasgow	Gé lā sī gē	[sound:格拉斯哥.mp3]	
+爱丁堡	Edinburgh	Ài dīng bǎo	[sound:爱丁堡.mp3]	
+阿但丁	Aberdeen	A dàn dīng	[sound:阿但丁.mp3]	
+魔法	Magic	Mó fǎ	[sound:魔法.mp3]	
 棒	Stick	Bàng	[sound:棒.mp3]	
-挥动	to wave	Huīdòng	[sound:挥动.mp3]	
+挥动	to wave	Huī dòng	[sound:挥动.mp3]	
 然后	then; afterwards	rán hòu	[sound:然后.mp3]	
-青蛙	Frog	Qīngwā	[sound:青蛙.mp3]	
+青蛙	Frog	Qīng wā	[sound:青蛙.mp3]	
 自己	oneself; self	zì jǐ	[sound:自己.mp3]	
-应该	should; ought to; must	yīng gāi	[sound:应该.mp3]	
-别的	other	Biéde	[sound:别的.mp3]	
-地方	place; space; room; part, (fāng: local; regional)	dì fang	[sound:地方.mp3]	
-感到	to feel	Gǎndào	[sound:感到.mp3]	
-孤单	lonely	Gūdān	[sound:孤单.mp3]	
-需要	to need; to want; to demand	xū yào	[sound:需要.mp3]	
+应该	should	yīng gāi	[sound:应该.mp3]	
+别的	other	Bié de	[sound:别的.mp3]	
+地方	A place	dì fang	[sound:地方.mp3]	
+孤单	lonely	Gū dān	[sound:孤单.mp3]	
+需要	to need	xū yào	[sound:需要.mp3]	
 帮忙	to help	bāng máng	[sound:帮忙.mp3]	
-巧克力	Chocolate	Qiǎokèlì	[sound:巧克力.mp3]	
-饼干	cookie	Bǐnggān	[sound:饼干.mp3]	
+巧克力	Chocolate	Qiǎo kè lì	[sound:巧克力.mp3]	
+饼干	cookie	Bǐng gān	[sound:饼干.mp3]	
 舔	to Lick	Tiǎn	[sound:舔.mp3]	
 开始	begin; to start; beginning	kāi shǐ	[sound:开始.mp3]	
-视频	video	Shìpín	[sound:视频.mp3]	
-空气动力学	aerodynamics	Kōngqìdònglìxué	[sound:空气动力学.mp3]	
-热力学	Thermodynamics	Rèlìxué	[sound:热力学.mp3]	
-力学	Mechanics	Lìxué	[sound:力学.mp3]	
-流体力学	Fluid Mechanics	Liútǐlìxué	[sound:流体力学.mp3]	
-工程师	Engineer	Gōngchéngshī	[sound:工程师.mp3]	
-微积分学	Calculus	Wéijīfēnxué	[sound:微积分学.mp3]	
-室友	Roommate	Shìyǒu	[sound:室友.mp3]	
-下载	to download	Xiàzài	[sound:下载.mp3]	
-上传	to upload	Shàngchuán	[sound:上传.mp3]	
-<div>炸鸡</div>	<div>deep fried chicken</div>	<div>Zhájī</div>		
-<div>活着</div>	<div>to be alive</div>	<div>Huózhe</div>		
-<div>我回来了</div>	<div>Im back</div>	<div>Wǒhuíláile</div>		
-<div>我准备好了</div>	<div>Im ready</div>	<div>Wǒzhǔnbèihǎole</div>		
-<div>组装</div>	<div>to build</div>	<div>Zǔzhuāng</div>		
-<div>健身房</div>	<div>Gym</div>	<div>Jiànshēnfáng</div>		
-<div>一次性</div>	<div>One time use</div>	<div>Yīcìxìng</div>		
-<div>等一会儿</div>	<div>Wait a bit</div>	<div>Děngyīhuǐ'er</div>		
-<div>锻炼</div>	<div>to workout</div>	<div>Duànliàn</div>		
-你在健身房锻炼得怎么样	How was the gym	Nǐzàijiànshēnfángduànliàndezěnmeyàng	[sound:你在健身房锻炼得怎么样.mp3]	
-酸疼	Sore	Suānténg	[sound:酸疼.mp3]	
-下一集	Next episode	Xiàyījí	[sound:下一集.mp3]	
-鱼	fish (Kangxi radical 195)	yú	[sound:鱼.mp3]	
-删除	to delete	Shānchú		
-深圳	Shenzhen	Shēnzhèn		
-广州	Guangzhou	<div>Guǎngzhōu</div>		
-山东省	Shandong province	Shāndōngshěng		
-潍坊	Weifang	Wéifāng		
-微信	WeChat	Wēixìn		
-你想一想	You think about it	Nǐxiǎngyīxiǎng		
-今天天气怎么样	How's the weather today?	Jīntiāntiānqìzěnmeyàng?		
+视频	video	Shì pín	[sound:视频.mp3]	
+空气动力学	aerodynamics	Kōng qì dòng lì xué	[sound:空气动力学.mp3]	
+热力学	Thermodynamics	Rè lì xué	[sound:热力学.mp3]	
+力学	Mechanics	Lì xué	[sound:力学.mp3]	
+流体力学	Fluid Mechanics	Liú tǐ lì xué	[sound:流体力学.mp3]	
+工程师	Engineer	Gōng chéng shī	[sound:工程师.mp3]	
+微积分学	Calculus	Wéi jī fēn xué	[sound:微积分学.mp3]	
+室友	Roommate	Shì yǒu	[sound:室友.mp3]	
+下载	to download	Xià zài	[sound:下载.mp3]	
+上传	to upload	Shàng chuán	[sound:上传.mp3]	
+酸疼	Sore	Suān téng	[sound:酸疼.mp3]	
+下一集	Next episode	Xià yī jí	[sound:下一集.mp3]	
+鱼	fish	yú	[sound:鱼.mp3]	
+删除	to delete	Shān chú	[sound:删除.mp3]	
+深圳	Shenzhen	Shēnzhèn	[sound:深圳.mp3]	
+广州	Guangzhou	Guǎng zhōu	[sound:广州.mp3]	
+山东省	Shandong province	Shān dōng shěng	[sound:山东省.mp3]	
+潍坊	Weifang	Wéi fāng	[sound:潍坊.mp3]	
+微信	WeChat	Wēi xìn	[sound:微信.mp3]	
+你想一想	You think about it	Nǐ xiǎng yī xiǎng	[sound:你想一想.mp3]	
+今天天气怎么样	How's the weather today?	Jīn tiān tiān qì zěn me yàng?	[sound:今天天气怎么样.mp3]	
+炸鸡	deep fried chicken	Zhá jī	[sound:炸鸡.mp3]	
+活着	to be alive	Huó zhe	[sound:活着.mp3]	
+我回来了	Im back	Wǒ huí lái le	[sound:我回来了.mp3]	
+我准备好了	Im ready	Wǒ zhǔn bèi hǎo le	[sound:我准备好了.mp3]	
+组装	to assemble	Zǔ zhuāng	[sound:组装.mp3]	
+健身房	Gym	Jiàn shēn fáng	[sound:健身房.mp3]	
+一次性	One time use	Yī cì xìng	[sound:一次性.mp3]	
+等一会儿	Wait a little while	Děng yī huǐ'er	[sound:等一会儿.mp3]	
+炒鸡蛋	Scrambled eggs	Chǎo jī dàn		
+忘记	to forget	Wàng jì		
+太多了	too much	Tài duō le		
+我吃的太多了	I ate too much	Wǒ chī de tài duō le		
+可爱	cute	Kě ài		
+有点儿	kind of (used to describe a negative adjective)	Yǒu diǎn er&nbsp;		
+站	to stand	Zhàn		
+你可以的	You can do it!	Nǐ kěyǐ de		
+你是最棒的	You are the best&nbsp;	Nǐ shì zuì bàng de		
+你从哪里学习中文	Where did you learn chinese from&nbsp;	Nǐ cóng nǎlǐ xuéxí zhōngwén		
+外面	Outside	Wài miàn		
+真的吗	Really?	Zhēn de ma		
+谢天谢地	Thank heavens!	Xiè tiān xiè dì		
+一般般	So-so	Yī bān bān		
+更多	More&nbsp;	Gèng duō		
+我来自英国	I'm from the uk	Wǒ lái zì yīng guó		
+火锅	Hotpot	Huǒ guō		
+外卖	Takeaway (noun)	Wàimài		
+点	to order	Diǎn		
+聊天	to chat about sth	Liáo tiān		
+送	To deliver	Sòng		
+记	to remember	Jì		
+很多	A lot of	Hěn duō		
+很久	<div>long time<br></div>	Hěn jiǔ		
+微波炉	Microwave	Wéi bō lú		
+粥	Porridge	zhōu		
+你不需要等我	You don't need to wait for me&nbsp;	Nǐ bù xūyào děng wǒ		
+我很久没吃披萨了	I haven't eaten pizza in a long time	Wǒ hěn jiǔ méi chī pī sà le		
+动物园	Zoo	Dòng wù yuán		
+讨厌	to hate	Tǎo yàn		
+尝试	to try	Cháng shì		
+本科生	Undergraduate student	běn kē shēng		
+研究生	postgraduate student&nbsp;	yán jiū shēng		
+作业	Homework	Zuò yè		
+豆腐	Tofu	Dòu fu		
+最后	last/final	Zuì hòu		
+爸妈	Parents (informal)	Bà mā		
+你今天过得怎么样	How was your day today?	Jīn tiān guò dé zěn me yàng		
+晚点	Later	Wǎn diǎn		
+中国音乐	Chinese music	Zhōng guó yīn yuè		
+你想跟我聊什么	What do you want to chat about with me	Nǐ xiǎng hé wǒ liáo shén me		
+聊	To chat	Liáo		
+教练	Coach/personal trainer	Jiào liàn		
+别担心	Don't worry&nbsp;	Bié dān xīn		
+请说慢一点	Please speak a little slower	Qǐng shuō màn yī diǎn		
+一点儿	A little bit (as a measure of a noun)	Yī diǎn er		
+从不	Never&nbsp;	Cóng bù		
+很少	Rarely	Hěn shǎo		
+偶尔	Occasionally&nbsp;	Ǒu ěr		
+经常	Often	Jīng cháng		
+歌词	Lyrics (for a song)	Gē cí		
+组	A group (set for exercise)	Zǔ		
+训练	to train	Xùn liàn		
+有氧训练	Cardio&nbsp;	Yǒu yǎng xùn liàn		
+重量训练	Weight training	Zhòng liàng xùn liàn		
+核心训练	Core training (abs)	Hé xīn xùn liàn		
+三头肌	Tricep	Sān tóu jī		
+二头肌	Bicep	Èr tóu jī		
+肩膀	Shoulder	Jiān bǎng		
+重量	Weights	Zhòng liàng		
+哑铃	Dumbbells&nbsp;	Yǎ líng		
+杠铃	Barbell	Gàng líng		
+壶铃	Kettlebells	Hú líng		
+单杠	Horizontal bar (for pull ups ect)	Dān gàng		
+跑步机	Treadmill	Pǎo bù jī		
+划船机	Rowing machine	Huá chuán jī		
+椭圆机	Elliptical machine	Tuǒ yuán jī		
+滑步机	Cross trainer	Huá bù jī		
+直播	Live broadcast	Zhí bò		
+自己学的	Self taught	Zì jǐ xué de		
+咸	Salty	Xián		
+里面	Inside	Lǐ miàn		
+顽皮	Naughty	Wán pí		
+购物	Shopping (noun)	Gòu wù		
+推车	Cart/Trolley	Tuī chē		
+购清单	Shopping list	Gòu qīng dān		
+番茄	Tomato	Fān qié		
+洋葱	Onion	Yáng cōng		
+首先	First of all (conjunction)	Shǒu xiān		
+做得好	Well done	Zuò dé hǎo		
+薯片	Crisps	Shǔ piàn		
+猜	To guess	Cāi		
+恐龙	Dinosaur	Kǒng lóng		
+超市	Supermarket	Chāo shì		
+我现在想起来了	I just remembered now	Wǒ xiànzài xiǎng qǐ lái le		
+基本上	Basically...	Jī běn shàng		
+蛋糕	Cake	Dàn gāo		
+垃圾	Rubbish&nbsp;	lā jī		
+我吃饱了	I'm full	Wǒ chī bǎo le&nbsp;		
+很高兴认识你	Nice to meet you	Hěn gāo xìng rèn shí nǐ		
+这个字怎么读	How to read (pronounce) this character	Zhè ge zì zěn me dú		
+别说话	Don't speak	Bié shuō huà		
+听力	Listening (the ability to)	Tīng lì		
+迷路	To get lost	Mí lù		
+仙女	Fairy	Xiān nǚ		
+公主	Princess	Gōng zhǔ		
+护士	Nurse	Hù shì		
+那么	Then...	Nà me		
+扮演	To play the part of&nbsp;	Bàn yǎn		
+心脏	Heart	Xīn zàng		
+心跳	Heart beat	Xīn tiào		
+贴	To stick	Tiē		
+创口贴	Bandage	Chuāng kǒu tiē		
+量	To measure	Liáng		
+体温	Body temperature	Tǐ wēn		
+躺	To lay	Tǎng		
+名词	Noun	Míng cí		
+动词	Verb	Dòng cí		
+形容词	Adjective	Xíng róng cí		
+副词	Adverb&nbsp;	Fù cí		
+量词	Measure word	Liàng cí		
+鹦鹉	Parrot	Yīng wǔ		
+惊喜	Surprise	Jīng xǐ		
+宠物	Pet	Chǒng wù		
+养	To raise (a pet/child)	Yǎng		
+聪明	Smart	Cōng míng		
+科学	Science	Kē xué		
+听说	To hear of sth	Tīng shuō		
+歌曲	Song	Gē qǔ		
+加班	To work overtime	Jiā bān		
+舒服	Comfortable/feel well	Shū fú		
+痒	To tickle/itch	Yǎng		
+响	To make a sound	Xiǎng		
+赶着要去	In a hurry to go do sth	Gǎn zhe yào qù		
+吵	Noisy	Chǎo		
+干净	Clean	Gān jìng		
+肮脏	Dirty	Āng zāng		
+鸭子	Duck	Yā zi		
+假装	To pretend to be someone	jiǎ zhuāng		
+摘掉	To take off	Zhāi diào		
+你做的什么菜都好吃	All of the dishes you cook are delicious	Nǐ zuò de shén me cài dōu hào chī		
+所有	All of...	Suǒ yǒu		
+你看起来困	You look sleepy	Nǐ kàn qǐ lái kùn		
+模糊	To blur/blurry	Mó hú		
+你对我很重要	You are important to me	Nǐ duì wǒ hěn zhòng yào		
+对我来说咖啡太苦了	For me, coffee is too bitter	Duì wǒ lái shuō kāfēi tài kǔ le		
+有的时候	Sometimes (time phrase)	Yǒu de shí hòu		
+找不到	Can't find sth	Zhǎo bù dào		
+我到处都找不到	I can't find it anywhere&nbsp;	Wǒ dào chù dōu zhǎo bù dào		
+到处都	Anywhere	dào chù dōu		
+糟了	Oops/oh no	Zāo le		
+着急	Anxious	Zhāo jí		
+根本	At all/totally (adverb used to emphasise negation)	Gēn běn		
+看不了	Can't read sth (due to factor outside of your control)	Kàn bù liǎo		
+令人	To cause someone/make one do sth	Lìng rén		
+无语	Speechless&nbsp;	Wú yǔ		
+肯定	It's must be that...	Kěn dìng		
+有人	Someone (a person exists that...)	Yǒu rén		
+藏	To hide sth	Cáng		
+放	To place/put sth somewhere&nbsp;	Fàng		
+口袋	Pocket	Kǒu dài		
+好主意	Good idea	Hǎo zhǔ yì		
+并没有	actually not (disagree with previous statement)	Bìng méi yǒu		
+楼上	Upstairs	Lóu shàng		
+楼下	Down stairs	Lóu xià		
+小心一点	Be careful (not in a serious situation)	Xiǎo xīn yī diǎn		
+小心	Be careful (serious situation)	Xiǎo xīn		
+好笑	Funny	Hǎo xiào		
+笑话	Joke	Xiào huà		
+别把东西碰到了	Don't bump into anything	Bié bǎ dōngxī pèng dào le		
+拖鞋	Slippers/flip flops	Tuō xié		
+浴室	Bath room (with a shower/bath)	Yù shì		
+浴缸	Bathtub	Yù gāng		
+马桶	Toilet (literally)	Mǎ tǒng		
+那又怎么样	So what?	Nà yòu zěn me yàng		
+怎么办	What to do?	Zěn me bàn		
+看来	It seems.../it's looks as if...	Kàn lái		
+适应	To adapt to sth	Shì yìng		
+生活	Life	Shēng huó		
+原来	As It turns out...	Yuán lái		
+迷糊	Confused/clueless	Mí hú		
+哇噻	Wow!	Wā sāi		
+摄像机	Movie/Video camera	Shè xiàng jī		
+邮递员	Mailman/postman	Yóu dì yuán		
+斑马	Zebra	Bān mǎ		
+送信	Mail delivery	Sòng xìn		
+包裹	Package	Bāo guǒ		
+邮局	Post office	Yóu jú		
+放弃	To give up	Fàng qì		
+不管多难你都不能放弃	No matter how difficult it is, you can't give up	Bù guǎn duō nàn nǐ dōu bù néng fàng qì		
+怎么会	How is this possible?	Zěn me huì		
+答案	Answer/solution	Dá àn		
+很接近答案了	Very close to the answer	Hěn jiē jìn dá àn le		
+瞧	Look/Voila (informal)	Qiáo		
+跟着说	Repeat speaking (follow speaking)	Gēn zhe shuō		
+语法	Grammar	Yǔ fǎ		
+影片	Movie clip	Yǐng piàn		
+就算	Even if (informal)	Jiù suàn		
+说明书	Instruction manual	Shuō míng shū		
+想象	To imagine	Xiǎng xiàng		
+中国比我想象中的要大	China is bigger than I imagined	Zhōng guó bǐ wǒ xiǎng xiàng zhōng de yāo dà		
+比我想象中的要难	This is harder than I imagined	Bǐ wǒ xiǎng xiàng zhōng de yāo nán		
+按	To press/push sth	Àn		
+按钮	Button (on a machine)	Àn niǔ		
+直接	Direct/immediate&nbsp;	Zhí jiē		
+我说得越来越好了	I speak better and better	Wǒ shuō dé yuè lái yuè hǎo le		
+购买	To Purchase (formal to buy)	Gòu mǎi		
+迫不及待	To be eager	Pò bù jí dài		
+部	Measure word for books/films	Bù		
+声音	Sound	Shēng yīn		
+我不太明白	I don't fully understand	Wǒ bù tài míng bái		
+事半功倍	Half the work, twice the effect (work smarter not harder) idiom	Shì bàn gōng bèi		
+停	To stop/pause	Tíng		
+照顾	To take care of&nbsp;	Zhào gù		
+段	Measure word for short video clip/portion of a video	Duàn		
+不许	To not allow&nbsp;	Bù xǔ		
+偷看	To peek	Tōu kàn		
+出镜	To appear in a video/on tv	Chū jìng		
+检查	To check/inspect	jiǎn chá		
+安全	To be safe/safety	ān quán		
+泥	Mud	Ní		
+而已	...that's all/nothing more	Ér yǐ		
+让我猜一猜	Let me guess	Ràng wǒ cāi yī cāi		
+放心	To feel releved/relaxed	Fàng xīn		
+没事	It's nothing/never mind&nbsp;	Méi shì		
+清理	To Clean up/sort out	Qīng lǐ		
+冰淇淋	Ice cream	Bīng qí lín		
+你做饭好了吗	Are you done cooking?	Nǐ zuò fàn hǎo le ma		
+吓人	To be scary	Xià rén		
+吓坏了	To get badly scared	Xià huài le		
+害怕	To get scared	Hài pà		
+中文怎么说	How do you say this in chinese？	Zhōng wén zěn me shuō		
+话题	Topic of conversation	Huà tí		
+模仿	To imitate	Mó fǎng		
+那样	Like that&nbsp;	Nà yàng		
+这样	Like this	Zhè yàng		
+平时	Ordinarily/normally	Píng shí		
+我越跑越累	The more I run, the more I get tired	Wǒ yuè pǎo yuè lèi		
+原来是这样	So that's what it is. (Initially didn't understand but now do)	Yuán lái shì zhè yàng		
+花园	Garden	Huā yuán		
+靴子	Boots	Xuē zi		
+身上	On ones body/on one&nbsp;	Shēn shang		
+吓唬	To frighten	Xià hǔ		
+身边	At/by ones side	shēn biān		
+别把东西落下了	Don't leave anything behind	Bié bǎ dōngxī là xià le		
+遮阳伞	Sun-umberella	zhē yáng sǎn		
+伞	Umbrella&nbsp;	sǎn		
+海滩包	Beach bag	Hǎi tān bāo		
+水桶	Water bucket	Shuǐ tǒng		
+铲子	Shovel	Chǎn zi		
+沙滩球	Beach ball	Shā tān qiú		
+涂	To apply/spread	Tú		
+防晒霜	Sun screen	Fáng shài shuāng		
+太阳太毒了	The sun is too strong	Tài yáng tài dú le		
+你是对的	You are right	Nǐ shì duì de		
+让我想想	Let me think	Ràng wǒ xiǎng xiǎng		
+我考虑一下	Let me consider it	Wǒ kǎo lǜ yī xià		
+下次吧	Let's do it next time (No)	Xià cì ba		
+再说吧	Let's talk about it later (No)	Zài shuō ba		
+香蕉	Banana	Xiāng jiāo		
+发信息	To send a message	Fā xìn xī		
+你一周去四次健身房	You go to the gym four times a week	Nǐ yī zhōu qù sì cì jiàn shēn fáng		
+香港	Hong Kong&nbsp;	Xiāng gǎng		
+我腿麻了	My legs are numb	Wǒ tuǐ má le		
+大米	Un cooked rice	Dà mǐ		
+从家到大学走路只需要两分钟	It only takes 2 minutes to walk from home to university&nbsp;	Cóng jiā dào dà xué zǒu lù zhǐ xūyào liǎng fēn zhōng		
+办公室	Office	Bàn gōng shì		
+复习	To revise/review	Fù xí		
+真不错	That's good (pleasant surprise)	Zhēn bù cuò		
+扔	To throw/toss	Rēng		
+追	To peruse/chase	Zhuī		
+接住	To catch (something thrown)	Jiē zhù		

@@ -3,12 +3,13 @@ from gtts import gTTS
 import os 
 import time 
 
+Filename="Random Chinese Words.txt"
 
 language="zh-cn"
 
 #import files
 
-Anki=pd.read_csv("Random Chinese Words.txt", sep="\t",header=None)
+Anki=pd.read_csv(Filename, sep="\t",header=None)
 #Anki=pd.read_csv("Anki_HSK6_FreqSort.csv",header=None)
 
 Anki=Anki.dropna(axis="columns")
@@ -41,6 +42,7 @@ for i,Chinese in enumerate(Anki["Chinese"]):
 for i in range(len(Anki)):
     Anki["Audio"][i]="[sound:{}]".format(AudioFilenames[i])
 
-Anki.to_csv("ExportedNotes_With_Audio.csv",index=None,header=None,encoding='utf_8_sig')
+Anki.to_csv("{}_With_Audio.csv".format(Filename),index=None,header=None,encoding='utf_8_sig')
+
 end=time.perf_counter()
 print("Done in {} seconds".format(round(end-start,2)))

@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands,tasks
 from secrets import discord_bot_token
-
+import time
 
 client = commands.Bot(command_prefix="!")
 #use client. because client is used
@@ -27,10 +27,22 @@ async def clear_error(ctx,error):
         await ctx.send("Please specify and amount of messages to delete")
        
 
-@tasks.loop(seconds=10)
+@client.command()
+async def ping(ctx):
+    await ctx.send("{}ms".format(round(client.latency*1000)))
+
+
+@tasks.loop(seconds=2)
 async def streamer_live_check():
-    ch = client.get_channel(736949877237612544)
-    await ch.send("xQcOW is live\nTitle: Fucking your mom")
+    await dm()
+    time.sleep(10)
+#ch = client.get_channel(736949877237612544)
+#await ch.send("xQcOW is live\nTitle: Fucking your mom")
+
+@client.command()
+async def dm():
+    target=await client.fetch_user(145272316778119170)
+    await target.send("Bruh")
 
 
 @client.command()

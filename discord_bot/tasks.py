@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands,tasks
 from itertools import cycle
+from secrets import discord_bot_token
 client = commands.Bot(command_prefix=".")
 #use client. because client is used
 
@@ -18,4 +19,4 @@ async def change_status():
 
 
 
-client.run("NzM2MzUxOTA4MjQyOTE1NDA4.XxtjJw.G9RobcphGN1l26XVxYOJQTzkI30")
+client.run(discord_bot_token)

@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-
+from secrets import discord_bot_token
 
 client = commands.Bot(command_prefix=".")
 
@@ -24,4 +24,4 @@ async def example(ctx):
     await ctx.send("Hi im {}".format(ctx.author))
 
 
-client.run("NzM2MzUxOTA4MjQyOTE1NDA4.XxtjJw.G9RobcphGN1l26XVxYOJQTzkI30")
+client.run(discord_bot_token)

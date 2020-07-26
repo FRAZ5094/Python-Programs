@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-import random
+from secrets import discord_bot_token
 client = commands.Bot(command_prefix=".")
 #use client. because client is used
 @client.event
@@ -29,4 +29,4 @@ async def clear_error(ctx,error):
             
 
 
-client.run("NzM2MzUxOTA4MjQyOTE1NDA4.XxtjJw.G9RobcphGN1l26XVxYOJQTzkI30")
+client.run(discord_bot_token)

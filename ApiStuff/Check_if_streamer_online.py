@@ -20,29 +20,16 @@ def get_auth_app_access_token():
 
     header={"client-id":client_id,"Authorization": "Bearer {}".format(access_token)}
 
-    return AuthData
 
 def search_channel(channel_name):
     r=requests.get("https://api.twitch.tv/helix/search/channels?query={}".format(channel_name),headers=header)
-    data=json.loads(r.text)["data"]
-    keys=list(data[0].keys())
-    removeKeys=["thumbnail_url","tag_ids","id"]
-    for key in removeKeys:
-        keys.remove(key)
-    #for key in keys:
-        #print("{}: {}".format(key,data[0][key]))
+    latest_data=json.loads(r.text)["data"][0]
+    if latest_data["is_live"]:
+        print("{} is live".format(channel_name))
+        print("Title: {}".format(latest_data["title"]))
+        print("Link: https://www.twitch.tv/{}".format(channel_name))
+    else:
+        print("{} is not live".format(channel_name))
 
-    return data
-
-
-def get_game_data(game_name):
-    r=requests.get("https://api.twitch.tv/helix/games?name={}".format(game_name),headers=header)
-    print(r)
-    data=json.loads(r.text)["data"]
-    return data
-
-
-def get_game_analytics(game_id):
-    r=requests.get("")
-
+    return json.loads(r.text)["data"]
 

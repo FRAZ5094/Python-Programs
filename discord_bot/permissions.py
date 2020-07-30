@@ -14,8 +14,17 @@ async def on_ready():
 async def clear(ctx,amount : int):
     await ctx.channel.purge(limit=amount)
 
-def is_it_me(ctx):
-    return ctx.author.id==145272316778119170 #checks if the author of the command has this id
+async def is_it_me(ctx):
+    if ctx.author.id==145272316778119171: #checks if the author of the command has this id
+        return True
+    else:
+        return False
+
+@client.event
+async def on_command_error(ctx,error):
+    if isinstance(error,commands.CheckFailure):
+        await ctx.send("you dont have permission for this command")
+
 
 
 @client.command()

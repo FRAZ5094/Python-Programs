@@ -10,5 +10,7 @@ async def on_ready():
 
 
 
+#ch = client.get_channel(736949877237612544)
+#await ch.send("xQcOW is live\nTitle: Fucking your mom")
 
 client.run(discord_bot_token)

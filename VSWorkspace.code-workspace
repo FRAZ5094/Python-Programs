@@ -11,6 +11,12 @@
 		},
 		{
 			"path": "..\\pokemon-emerald"
+		},
+		{
+			"path": "..\\JS-Html-stuff"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JS-Html-stuff"
+	}
 }

@@ -14,9 +14,12 @@
 		},
 		{
 			"path": "..\\JS-Html-stuff"
+		},
+		{
+			"path": "..\\Taylor-birthday-website"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "JS-Html-stuff"
+		"liveServer.settings.multiRootWorkspaceName": "Taylor-birthday-website"
 	}
 }

@@ -1,22 +1,32 @@
 {
 	"folders": [
 		{
+			"name": "python-programs",
 			"path": "."
 		},
 		{
+			"name": "Discord_bot",
 			"path": "..\\Discord_bot"
 		},
 		{
-			"path": "..\\LSF_scraper"
-		},
-		{
+			"name": "pokemon-emerald",
 			"path": "..\\pokemon-emerald"
 		},
 		{
+			"name": "LSF_scraper",
+			"path": "..\\LSF_scraper"
+		},
+		{
+			"name": "JS-Html-stuff",
 			"path": "..\\JS-Html-stuff"
 		},
 		{
+			"name": "Taylor-birthday-website",
 			"path": "..\\Taylor-birthday-website"
+		},
+		{
+			"name": "GET-IP",
+			"path": "..\\GET-IP"
 		}
 	],
 	"settings": {

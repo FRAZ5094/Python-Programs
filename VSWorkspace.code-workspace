@@ -21,12 +21,11 @@
 			"path": "..\\JS-Html-stuff"
 		},
 		{
-			"name": "Taylor-birthday-website",
-			"path": "..\\Taylor-birthday-website"
-		},
-		{
 			"name": "GET-IP",
 			"path": "..\\GET-IP"
+		},
+		{
+			"path": "..\\Taylor-birthday-website"
 		}
 	],
 	"settings": {

@@ -6,9 +6,10 @@ sys.setrecursionlimit(3000)
 
 global all_combs,prices,total,answers
 all_combs=[]
-prices=np.array([123,156,146,198,125])
-ans=np.array([1,2,3,4,5])
-total=sum(prices*ans)
+prices=np.array([13,15,18])
+#ans=np.array([1,2,3,4,5])
+#total=sum(prices*ans)
+total=97
 answers=[]
 
 

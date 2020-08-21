@@ -3,14 +3,14 @@ from gtts import gTTS
 import os 
 import time 
 
-Filename="Random Chinese Words.txt"
+Filename="Chinese Skill HSK3_4.csv"
 
 language="zh-cn"
 
 #import files
 
-Anki=pd.read_csv(Filename, sep="\t",header=None)
-#Anki=pd.read_csv("Anki_HSK6_FreqSort.csv",header=None)
+#Anki=pd.read_csv(Filename, sep="\t",header=None)
+Anki=pd.read_csv(Filename,header=None)
 
 Anki=Anki.dropna(axis="columns")
 #Anki=Anki.replace({"<div>": ""},regex=True)
@@ -23,6 +23,10 @@ else:
     Anki.columns=["Chinese","English","Pinyin","Audio"]
 
 NoWords=len(Anki)
+
+#removes <br> tag
+for col in Anki.columns:
+    Anki[col] = Anki[col].str.replace(r'<br>', '')
 
 AudioFilenames=[]
 

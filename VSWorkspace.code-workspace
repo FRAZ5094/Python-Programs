@@ -29,6 +29,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "python-programs"
+		"liveServer.settings.multiRootWorkspaceName": "python-programs",
+		"python.pythonPath": "C:\\Users\\frase\\anaconda3\\python.exe"
 	}
 }

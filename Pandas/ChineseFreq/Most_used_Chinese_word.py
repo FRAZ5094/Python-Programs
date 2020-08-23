@@ -32,4 +32,11 @@ Rows = Rows.sort_values(by=["Freq"], ascending=False)
 
 print("")
 pd.set_option('display.max_rows', len(Rows))
-display(Rows)
+
+try:
+    display(Rows)
+except:
+    string_rows = Rows.to_string()
+    u_string = u"{}".format(string_rows)
+    print(u_string)
+    print("")

@@ -1,34 +1,33 @@
 {
-	"folders": [
-		{
-			"name": "python-programs",
-			"path": "."
-		},
-		{
-			"name": "Discord_bot",
-			"path": "..\\Discord_bot"
-		},
-		{
-			"name": "pokemon-emerald",
-			"path": "..\\pokemon-emerald"
-		},
-		{
-			"name": "LSF_scraper",
-			"path": "..\\LSF_scraper"
-		},
-		{
-			"name": "JS-Html-stuff",
-			"path": "..\\JS-Html-stuff"
-		},
-		{
-			"name": "GET-IP",
-			"path": "..\\GET-IP"
-		},
-		{
-			"path": "..\\Taylor-birthday-website"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "python-programs"
-	}
+    "folders": [
+        {
+            "name": "python-programs",
+            "path": "."
+        },
+        {
+            "name": "Discord_bot",
+            "path": "..\\Discord_bot"
+        },
+        {
+            "name": "pokemon-emerald",
+            "path": "..\\pokemon-emerald"
+        },
+        {
+            "name": "LSF_scraper",
+            "path": "..\\LSF_scraper"
+        }, {
+            "name": "JS-Html-stuff",
+            "path": "..\\JS-Html-stuff"
+        }, {
+            "name": "GET-IP",
+            "path": "..\\GET-IP"
+        }, {
+            "path": "..\\Taylor-birthday-website"
+        }, {
+            "path": "..\\Javascript"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "python-programs"
+    }
 }

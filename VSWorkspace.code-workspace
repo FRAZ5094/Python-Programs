@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	"folders": [
 		{
 			"name": "python-programs",
@@ -27,6 +26,9 @@
 		},
 		{
 			"path": "..\\Taylor-birthday-website"
+		},
+		{
+			"path": "..\\Javascript"
 		}
 	],
 	"settings": {
@@ -34,37 +36,3 @@
 		"python.pythonPath": "C:\\Users\\frase\\anaconda3\\python.exe"
 	}
 }
-=======
-    "folders": [
-        {
-            "name": "python-programs",
-            "path": "."
-        },
-        {
-            "name": "Discord_bot",
-            "path": "..\\Discord_bot"
-        },
-        {
-            "name": "pokemon-emerald",
-            "path": "..\\pokemon-emerald"
-        },
-        {
-            "name": "LSF_scraper",
-            "path": "..\\LSF_scraper"
-        }, {
-            "name": "JS-Html-stuff",
-            "path": "..\\JS-Html-stuff"
-        }, {
-            "name": "GET-IP",
-            "path": "..\\GET-IP"
-        }, {
-            "path": "..\\Taylor-birthday-website"
-        }, {
-            "path": "..\\Javascript"
-        }
-    ],
-    "settings": {
-        "liveServer.settings.multiRootWorkspaceName": "python-programs"
-    }
-}
->>>>>>> e89e48b74abc902eee4d82add982203931a1a282

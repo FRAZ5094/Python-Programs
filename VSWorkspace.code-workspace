@@ -29,6 +29,9 @@
 		},
 		{
 			"path": "..\\Javascript"
+		},
+		{
+			"path": "..\\Auto-VLC"
 		}
 	],
 	"settings": {

@@ -7,3 +7,4 @@ __pycache__/
 .vscode/
 -website
 al
+PIL stuff/video_to_frames/data/*

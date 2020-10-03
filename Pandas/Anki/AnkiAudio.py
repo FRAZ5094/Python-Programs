@@ -3,7 +3,7 @@ from gtts import gTTS
 import os 
 import time 
 
-Filename="Chinese Skill HSK3_4.csv"
+Filename="Chinese.csv"
 
 language="zh-cn"
 
@@ -24,9 +24,13 @@ else:
 
 NoWords=len(Anki)
 
-#removes <br> tag
+#removes <br> tag and &nbsp;
 for col in Anki.columns:
     Anki[col] = Anki[col].str.replace(r'<br>', '')
+    Anki[col]=Anki[col].str.replace(r'&nbsp;','')
+    Anki[col]=Anki[col].str.replace(r'<div>','')
+    Anki[col] = Anki[col].str.replace(r'<br/>', '')
+    Anki[col]=Anki[col].str.replace(r'</div>','')
 
 AudioFilenames=[]
 

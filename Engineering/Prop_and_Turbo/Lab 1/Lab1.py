@@ -25,6 +25,16 @@ def microphone_signal(data,title):
     global figure_n
     dt=float(data["time"][1]-data["time"][0])
     n=len(data)
+    
+
+   
+
+
+    fhat=fft(data["microphone signal"],n)
+    PSD=fhat*np.conj(fhat)/n
+    freq=(1/(dt*n))*np.arange(n)
+    L=np.arange(1,np.floor(n/2),dtype='int')
+    
     mic_sens=0.0495
     mic_pressure=data["microphone signal"]/mic_sens
 
@@ -34,16 +44,11 @@ def microphone_signal(data,title):
     rms = np.sqrt(np.mean(mic_pressure**2))
     dB_rms=pressure_to_dB(rms)
 
+
     print(title)
     print(dB_rms)
     print(dB_max_pressure)
 
-
-    fhat=fft(mic_pressure,n)
-    PSD=fhat*np.conj(fhat)/n
-    freq=(1/(dt*n))*np.arange(n)
-    L=np.arange(1,np.floor(n/2),dtype='int')
-    
     
     #plt.plot(data["time"],mic_pressure)
     plt.figure(figure_n)

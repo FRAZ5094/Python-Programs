@@ -26,17 +26,16 @@ def microphone_signal(data,title):
     dt=float(data["time"][1]-data["time"][0])
     n=len(data)
     
+    mic_sens=0.0495
+    mic_pressure=data["microphone signal"]/mic_sens
 
-   
 
-
-    fhat=fft(data["microphone signal"],n)
+    fhat=fft(mic_pressure,n)
     PSD=fhat*np.conj(fhat)/n
     freq=(1/(dt*n))*np.arange(n)
     L=np.arange(1,np.floor(n/2),dtype='int')
     
-    mic_sens=0.0495
-    mic_pressure=data["microphone signal"]/mic_sens
+    
 
     max_pressure=max(mic_pressure)
     dB_max_pressure=pressure_to_dB(max_pressure)
@@ -58,7 +57,9 @@ def microphone_signal(data,title):
     plt.show()
 
 
-def square_wave(data):
+def square_wave(data,title):
+    global figure_n
+    #print(data["time"])
     dt=float(data["time"][1]-data["time"][0])
     n=len(data)
 
@@ -68,18 +69,25 @@ def square_wave(data):
     L=np.arange(1,np.floor(n/2),dtype='int')
 
 
-
+    """
     min=7000
     found_freq=[]
     for i,value in enumerate(PSD[L]):
         if value>min:
             found_freq.append((freq[i],value))
+    """
 
-
-    print(found_freq)
-    plt.title("Sample square wave")
+    #print(found_freq)
+    plt.figure(figure_n)
+    figure_n+=1
+    plt.title(title)
     plt.plot(freq[L],PSD[L])
     plt.show()
+
+
+#square_wave(data148,"148 Square wave")
+#square_wave(data192,"192 Square wave")
+
 
 microphone_signal(data148,"Thrust=148N")
 microphone_signal(data192,"Thrust=192N")

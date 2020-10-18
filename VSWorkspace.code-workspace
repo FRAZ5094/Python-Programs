@@ -35,6 +35,9 @@
 		},
 		{
 			"path": "..\\Auto-VLC"
+		},
+		{
+			"path": "..\\LaTeX"
 		}
 	],
 	"settings": {

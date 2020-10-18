@@ -45,8 +45,8 @@ def microphone_signal(data,title):
 
 
     print(title)
-    print(dB_rms)
-    print(dB_max_pressure)
+    print(f"rms={round(dB_rms,2)}")
+    print(f"max={round(dB_max_pressure,2)}")
 
     
     #plt.plot(data["time"],mic_pressure)
@@ -54,6 +54,14 @@ def microphone_signal(data,title):
     figure_n+=1
     plt.title(title)
     plt.plot(freq[L],PSD[L])
+
+    estimate=547
+    number_of_lines=int(freq[L[-1]]/estimate)
+    print(number_of_lines)
+    #print()
+    for i in range(1,number_of_lines+1):
+        print(i)
+        plt.plot([i*estimate,i*estimate],[0,120000])
     plt.show()
 
 
@@ -90,4 +98,4 @@ def square_wave(data,title):
 
 
 microphone_signal(data148,"Thrust=148N")
-microphone_signal(data192,"Thrust=192N")
+#microphone_signal(data192,"Thrust=192N")

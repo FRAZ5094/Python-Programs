@@ -1,6 +1,7 @@
 import pandas as pd 
 import matplotlib.pyplot as plt
-from numpy.fft import fft,fftfreq,ifft
+#from numpy.fft import fft,fftfreq,ifft
+from scipy.fft import fft
 import numpy as np
 %matplotlib qt
 
@@ -61,9 +62,36 @@ def microphone_signal(data,title):
     #print()
     for i in range(1,number_of_lines+1):
         print(i)
-        plt.plot([i*estimate,i*estimate],[0,120000])
+        plt.plot([i*estimate,i*estimate],[60000,120000])
     plt.show()
 
+def scipy_python_test(data):
+    T=float(data["time"][1]-data["time"][0])
+    N=len(data)
+    
+    mic_sens=0.0495
+    mic_pressure=np.array(data["microphone signal"]/mic_sens)
+
+    yf=fft(mic_pressure)
+    xf = np.linspace(0.0, 1.0/(2.0*T), N//2)
+    
+    plt.plot(xf, 2.0/N * np.abs(yf[0:N//2]))
+    plt.show()
+
+def scipy_python_test_square(data):
+    T=float(data["time"][1]-data["time"][0])
+    N=len(data)
+    
+    mic_sens=0.0495
+    mic_pressure=np.array(data["microphone signal"]/mic_sens)
+    print(mic_pressure)
+    print("bruh")
+    yf=fft(mic_pressure)
+    xf = np.linspace(0.0, 1.0/(2.0*T), N//2)
+    
+    plt.plot(xf, 2.0/N * np.abs(yf[0:N//2]))
+    plt.grid()
+    plt.show()
 
 def square_wave(data,title):
     global figure_n
@@ -86,10 +114,22 @@ def square_wave(data,title):
     """
 
     #print(found_freq)
+
+    
     plt.figure(figure_n)
     figure_n+=1
     plt.title(title)
     plt.plot(freq[L],PSD[L])
+    plt.xlim(0)
+
+    estimate=261
+    number_of_lines=int(freq[L[-1]]/estimate)
+    print(number_of_lines)
+    for i in range(1,number_of_lines+1):
+        print(i)
+        plt.plot([i*estimate,i*estimate],[60000,120000])
+
+
     plt.show()
 
 
@@ -97,5 +137,7 @@ def square_wave(data,title):
 #square_wave(data192,"192 Square wave")
 
 
-microphone_signal(data148,"Thrust=148N")
+#microphone_signal(data148,"Thrust=148N")
 #microphone_signal(data192,"Thrust=192N")
+
+scipy_python_test(data148)

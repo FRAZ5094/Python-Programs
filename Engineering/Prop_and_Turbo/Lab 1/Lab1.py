@@ -6,20 +6,21 @@ import numpy as np
 
 global figure_n
 figure_n=0
+if 'data148' not in locals():
+    data148=pd.read_csv("testhigh.dat",sep="\t",header=None)
+    data148=data148.T
+    data148=data148.drop(columns=[1])
+    data148.columns=["microphone signal","square wave","time"]
 
-data148=pd.read_csv("testhigh.dat",sep="\t",header=None)
-data148=data148.T
-data148=data148.drop(columns=[1])
-data148.columns=["microphone signal","square wave","time"]
-
-data192=pd.read_csv("testhigh80.dat",sep="\t",header=None)
-data192=data192.T
-data192=data192.drop(columns=[1])
-data192.columns=["microphone signal","square wave","time"]
+    data192=pd.read_csv("testhigh80.dat",sep="\t",header=None)
+    data192=data192.T
+    data192=data192.drop(columns=[1])
+    data192.columns=["microphone signal","square wave","time"]
 
 def pressure_to_dB(value):
     reference_sound_pressure=0.00002
     return 20*np.log10((value)/(reference_sound_pressure))
+
 
 def microphone_signal(data,title,estimate):
     global figure_n
@@ -45,8 +46,8 @@ def microphone_signal(data,title,estimate):
 
 
     print(title)
-    print(f"rms={round(dB_rms,2)}")
-    print(f"max={round(dB_max_pressure,2)}")
+    print(f"rms={round(dB_rms,2)}dB ({round(rms,2)})")
+    print(f"max={round(dB_max_pressure,2)}dB ({round(max_pressure,2)})")
 
     
     #plt.plot(data["time"],mic_pressure)
@@ -55,13 +56,18 @@ def microphone_signal(data,title,estimate):
     plt.title(title)
     plt.plot(freq[L],PSD[L])
 
-    estimate=547
     number_of_lines=int(freq[L[-1]]/estimate)
     #print(number_of_lines)
     for i in range(1,number_of_lines+1):
         #print(i)
-        plt.plot([i*estimate,i*estimate],[60000,120000])
+        plt.plot([i*estimate,i*estimate],[0,210000],'r--',alpha=0.3)
+    #plt.text(0,100000,"dont copy",size=50)
+    plt.xlabel("frequency (Hz)")
+    plt.ylabel("idk amplitude or something")
+    plt.ylim(0,210000)
+    plt.tight_layout()
     plt.show()
+    plt.savefig(f"{title}.png")
 
 def scipy_python_test(data,title):
     global figure_n
@@ -75,7 +81,8 @@ def scipy_python_test(data,title):
     xf = np.linspace(0.0, 1.0/(2.0*T), N//2)
     plt.figure(figure_n)
     figure_n+=1
-    plt.plot(xf, 2.0/N * np.abs(yf[0:N//2]))
+    plt.plot(xf,np.abs(yf[0:N//2]))
+    #plt.plot(xf, 2.0/N * np.abs(yf[0:N//2]))
     plt.title(title)
     plt.show()
 
@@ -150,8 +157,8 @@ def square_wave(data,title):
 #square_wave(data192,"192 Square wave")
 
 
-microphone_signal(data148,"Thrust=148N")
-microphone_signal(data192,"Thrust=192N")
+microphone_signal(data148,"Thrust=148N",1646)
+microphone_signal(data192,"Thrust=192N",1772)
 
 #scipy_python_test(data148,"Scipy 148")
 #scipy_python_test(data192,"Scipy 192")

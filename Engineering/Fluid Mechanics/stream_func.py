@@ -16,7 +16,7 @@ class stream_func():
 a=1
 stream_functions=[]
 theta_values=np.linspace(00.01,np.pi-0.001,100)
-b_list=np.arange(1,5,0.05)
+b_list=np.arange(1,5,0.1)
 for b in b_list:
     stream=stream_func()
     for theta in theta_values:

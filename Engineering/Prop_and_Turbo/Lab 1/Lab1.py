@@ -53,7 +53,7 @@ def microphone_signal(data,title,estimate):
     #plt.plot(data["time"],mic_pressure)
     plt.figure(figure_n)
     figure_n+=1
-    plt.title(title)
+    #plt.title(title)
     plt.plot(freq[L],PSD[L])
 
     number_of_lines=int(freq[L[-1]]/estimate)
@@ -63,8 +63,9 @@ def microphone_signal(data,title,estimate):
         plt.plot([i*estimate,i*estimate],[0,210000],'r--',alpha=0.3)
     #plt.text(0,100000,"dont copy",size=50)
     plt.xlabel("frequency (Hz)")
-    plt.ylabel("idk amplitude or something")
+    plt.ylabel("Power spectral density??")
     plt.ylim(0,210000)
+    plt.xlim(0)
     plt.tight_layout()
     plt.show()
     plt.savefig(f"{title}.png")

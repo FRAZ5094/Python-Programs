@@ -61,9 +61,10 @@ def microphone_signal(data,title,estimate):
     for i in range(1,number_of_lines+1):
         #print(i)
         plt.plot([i*estimate,i*estimate],[0,210000],'r--',alpha=0.3)
+        pass
     #plt.text(0,100000,"dont copy",size=50)
     plt.xlabel("frequency (Hz)")
-    plt.ylabel("Power spectral density??")
+    plt.ylabel("Power spectral density (Vrms^2)")
     plt.ylim(0,210000)
     plt.xlim(0)
     plt.tight_layout()
@@ -117,7 +118,7 @@ def scipy_python_test_square(data,title):
 
 def square_wave(data,title):
     global figure_n
-    #print(data["time"])
+    estimate=261
     dt=float(data["time"][1]-data["time"][0])
     n=len(data)
 
@@ -126,40 +127,30 @@ def square_wave(data,title):
     freq=(1/(dt*n))*np.arange(n)
     L=np.arange(1,np.floor(n/2),dtype='int')
 
-
-    """
-    min=7000
-    found_freq=[]
-    for i,value in enumerate(PSD[L]):
-        if value>min:
-            found_freq.append((freq[i],value))
-    """
-
-    #print(found_freq)
-
+    
     
     plt.figure(figure_n)
     figure_n+=1
-    plt.title(title)
     plt.plot(freq[L],PSD[L])
-    plt.xlim(0)
-
+    plt.xlim(0,3000)
+    plt.ylim(0)
     estimate=261
     number_of_lines=int(freq[L[-1]]/estimate)
-    #print(number_of_lines)
-    for i in range(1,number_of_lines+1):
-        plt.plot([i*estimate,i*estimate],[60000,120000])
 
-
+    for i in np.arange(1,19,2):
+        plt.plot([i*estimate,i*estimate],[0,max(PSD[L])],'r--',alpha=0.3)
+    print(max(PSD))
+    plt.xlabel("frequency (Hz)")
+    plt.ylabel("Power spectral density (Vrms^2)")
+    plt.tight_layout()
     plt.show()
+    plt.savefig(f"{title}.png")
 
-
-#square_wave(data148,"148 Square wave")
+square_wave(data148,"Square wave")
 #square_wave(data192,"192 Square wave")
 
-
-microphone_signal(data148,"Thrust=148N",1646)
-microphone_signal(data192,"Thrust=192N",1772)
+#microphone_signal(data148,"Thrust=148N",1646)
+#microphone_signal(data192,"Thrust=192N",1772)
 
 #scipy_python_test(data148,"Scipy 148")
 #scipy_python_test(data192,"Scipy 192")

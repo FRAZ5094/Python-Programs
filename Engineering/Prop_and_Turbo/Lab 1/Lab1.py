@@ -1,6 +1,7 @@
 import pandas as pd 
 import matplotlib.pyplot as plt
 from scipy.fft import fft
+from scipy import signal
 import numpy as np
 %matplotlib qt
 
@@ -32,7 +33,9 @@ def microphone_signal(data,title,estimate):
 
 
     fhat=np.fft.fft(mic_pressure,n)
+    print(fhat)
     PSD=fhat*np.conj(fhat)/n
+    #f,PSD = signal.periodogram(fhat,4000)
     freq=(1/(dt*n))*np.arange(n)
     L=np.arange(1,np.floor(n/2),dtype='int')
     
@@ -60,12 +63,12 @@ def microphone_signal(data,title,estimate):
     #print(number_of_lines)
     for i in range(1,number_of_lines+1):
         #print(i)
-        plt.plot([i*estimate,i*estimate],[0,210000],'r--',alpha=0.3)
+        #plt.plot([i*estimate,i*estimate],[0,210000],'r--',alpha=0.3)
         pass
     #plt.text(0,100000,"dont copy",size=50)
     plt.xlabel("frequency (Hz)")
     plt.ylabel("Power spectral density (Vrms^2)")
-    plt.ylim(0,210000)
+    #plt.ylim(0,210000)
     plt.xlim(0)
     plt.tight_layout()
     plt.show()
@@ -83,7 +86,7 @@ def scipy_python_test(data,title):
     xf = np.linspace(0.0, 1.0/(2.0*T), N//2)
     plt.figure(figure_n)
     figure_n+=1
-    plt.plot(xf,np.abs(yf[0:N//2]))
+    plt.plot(xf,2.0/N*np.abs(yf[0:N//2]))
     #plt.plot(xf, 2.0/N * np.abs(yf[0:N//2]))
     plt.title(title)
     plt.show()
@@ -146,7 +149,33 @@ def square_wave(data,title):
     plt.show()
     plt.savefig(f"{title}.png")
 
-square_wave(data148,"Square wave")
+
+def fft_matlab_example(data):
+    Fs=40000
+    t=data["time"]
+    T=1/Fs
+    L=1000
+
+    mic_sens=0.0495
+    mic_pressure=data["microphone signal"]/mic_sens
+
+    Y = np.fft.fft(mic_pressure)
+
+    P2=abs(Y/L)
+    print((L/2)+1)
+    P1= P2[0:int(L/2)]
+    P1*=2
+
+    f=(Fs/L)*(np.arange(0,L/2))
+    plt.plot(f,P1,linewidth=1)
+    plt.title("Fourier Transform of microphone signal")
+    plt.xlabel("frequency (Hz)")
+    plt.ylabel("|Pressure (Pa)|")
+    plt.xlim(0,20000)
+    plt.ylim(0,80)
+    plt.savefig("2388083M_PropLab_Fourier.png")
+
+#square_wave(data148,"Square wave")
 #square_wave(data192,"192 Square wave")
 
 #microphone_signal(data148,"Thrust=148N",1646)
@@ -154,3 +183,5 @@ square_wave(data148,"Square wave")
 
 #scipy_python_test(data148,"Scipy 148")
 #scipy_python_test(data192,"Scipy 192")
+
+fft_matlab_example(data148)

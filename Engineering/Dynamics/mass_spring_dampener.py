@@ -2,48 +2,74 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 
-def fraserq2(x,t):
+def mymodel(x,t):
     #x[1]=omega
     #x[0]=theta
-    
+    #print(x,"x in model")
     dx1dt=x[1]
     dx2dt=16-61*x[1]-210*x[0]
 
-    dxdt=[dx1dt,dx2dt]
+    #print(dx1dt,"dx1")
+    #print(dx2dt,"dx2")
+
+    dxdt=np.array([dx1dt,dx2dt])
     return dxdt
 
-def scottq2(x,t):
-    #x[1]=omega
-    #x[0]=theta
-    
-    dx1dt=x[1]
-    dx2dt=23-20*x[1]-90*x[0]
+def euler_int(xdot,h,x):
+    #print(x,"x in euler int")
+    return x+h*xdot
 
-    dxdt=[dx1dt,dx2dt]
-    return dxdt
-
+def calculate_response(model_name,x_init,time_array):
+    x=x_init
+    start_t=time_array[0]
+    end_t=time_array[-1]
+    delta_t=time_array[1]-time_array[0]
+    for t in np.arange(t_start+delta_t,t_end+delta_t,delta_t):
+        dxdt=model_name(x[-1],t)
+        euler_resp=euler_int(dxdt,delta_t,x[-1])
+        x=np.append(x,[euler_resp],axis=0)
+    return x
 
 t_start=0
 t_end=2
-t_delta=0.00001
+t_delta=0.001
 
 t=np.arange(t_start,t_end+t_delta,t_delta)
 
-x_init=[0,21]
+x_init=np.array([[0,21]])
 
-response=odeint(fraserq2,x_init,t)
 
+response=odeint(mymodel,x_init[0],t)
 theta=response[:,0]
 omega=response[:,1]
 
-A=0.05827243987
-B=36.03012628
-fraserq1_theta=A*np.exp(-12.3*t)*np.sin(B*t)
+x = calculate_response(mymodel,x_init,t)
+custom_theta=[]
 
-scottq1_theta=(0.95/np.sqrt(20.56))*np.exp(-0.8*t)*np.sin(np.sqrt(20.56)*t)
-plt.plot(t,theta,label="simulation")
-#plt.plot(t,fraserq1_theta,label="answer")
-plt.legend()
-#plt.ylim(0,1)
+for array in x:
+    custom_theta.append(array[0])
 
-    
+
+
+
+
+
+answer_theta = 0.076*(1+4.079*np.exp(-3.66*t)-5.079*np.exp(-57.337*t))
+
+#plt.subplot(211)
+plt.plot(t,theta,label="ode int")
+#plt.subplot(212)
+plt.plot(t,custom_theta,label="custom int")
+print(f"peak theta = {max(theta)}")
+print(f"peak t = {t[np.where(theta==max(theta))][0]}")
+print(f"steady state theta = {theta[-1]}")
+#plt.legend()
+
+error=[]
+
+for i in range(1,len(t)):
+    error.append(((abs(theta[i]-custom_theta[i]))/custom_theta[i])*100)
+
+avg_error=sum(error)/len(error)
+
+print(avg_error)

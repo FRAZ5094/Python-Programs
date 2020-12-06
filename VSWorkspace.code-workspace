@@ -48,6 +48,9 @@
 	],
 	"settings": {
 		"liveServer.settings.multiRootWorkspaceName": "Javascript",
-		"python.pythonPath": "C:\\Users\\frase\\anaconda3\\python.exe"
+		"python.pythonPath": "C:\\Users\\frase\\anaconda3\\python.exe",
+		"cSpell.words": [
+			"mdot"
+		]
 	}
 }

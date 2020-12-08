@@ -4,7 +4,9 @@ from scipy.integrate import odeint
 from time import perf_counter
 
 
-global m,S,C_D,C_L,g,D,A,C_T
+global m,S,C_D,C_L,g,D,A,C_T,V
+
+V=50
 
 W=15123
 g=9.81
@@ -28,26 +30,24 @@ C_D0=0.0251
 C_D=C_D0+k*((C_L)**2)
 
 def plane_model(s,t):
-    global m,S,C_D,C_L,g,D,A,C_T
+    global m,S,C_D,C_L,g,D,A,C_T,V
 
-    rho=(2.865*10**-9*s[2]**2)-(1.121*10**-4*s[2])+1.225
+    #print(s)
+    rho=(2.865*10**-9*s[0]**2)-(1.121*10**-4*s[0])+1.225
     #print(rho)
 
     mdot=rho*s[1]*A
-    J=(s[1])/(n*D)
+    #J=(s[1])/(n*D)
 
-    b=-1+np.sqrt(1+((8*C_T)/(np.pi*J**2)))
+    #b=-1+np.sqrt(1+((8*C_T)/(np.pi*J**2)))
 
-    sdot=np.array([0,0,0,0])
+    sdot=np.array([0,0])
 
+    #sdot[0]=s[1]
+    #sdot[1]=((mdot*b)/(m))*s[1]-((rho*S*C_D)/(2*m))*(s[1])**2
     sdot[0]=s[1]
-    sdot[1]=((mdot*b)/(m))*s[1]-((rho*S*C_D)/(2*m))*(s[1]**2)
-    sdot[2]=s[3]
-    sdot[3]=((rho*S*C_L)/(2*m))*(s[1]**2)-g
+    sdot[1]=((rho*S*C_L)/(2*m))*(V**2)-g
 
-    #print(sdot)
-
-    
     return sdot
 
 def euler_int(model_name,xdot,h,x):
@@ -82,17 +82,17 @@ def calculate_response(model_name,integration,x_init,time_array):
 
 
 t_start=0
-t_delta=0.01
+t_delta=0.1
 t_end=500
 
 
 t=np.arange(t_start,t_end+t_delta,t_delta)
 
 
-s_init=np.array([[0,1,0,0]])
+s_init=np.array([[4000,0]])
 
 start=perf_counter()
-results = calculate_response(plane_model,euler_int,s_init,t)
+results = calculate_response(plane_model,RK4,s_init,t)
 end=perf_counter()
 
 x=[]
@@ -101,13 +101,10 @@ z=[]
 dz_dt=[]
 
 for array in results:
-    x.append(array[0])
-    dx_dt.append(array[1])
-    z.append(array[2])
-    dz_dt.append(array[3])
+    z.append(array[0])
+    dz_dt.append(array[1])
 
 plt.subplot(211)
 plt.plot(t,z)
 plt.subplot(212)
-plt.plot(t,dx_dt)
-plt.show()
+plt.plot(t,dz_dt)

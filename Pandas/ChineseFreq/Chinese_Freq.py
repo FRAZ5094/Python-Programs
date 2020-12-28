@@ -29,7 +29,7 @@ if len(compares) != 0:
         Rows = Rows.append(Data[Data["Chinese"].str.contains(word)])
 
 Rows = Rows.sort_values(by=["Freq"], ascending=False)
-
+Rows=Rows[0:10]
 print("")
 pd.set_option('display.max_rows', len(Rows))
 

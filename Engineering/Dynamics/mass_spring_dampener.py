@@ -17,9 +17,9 @@ def mymodel(x,t):
     return dxdt
 
 def custom_model(x,t):
-    k=1000
-    c=200
-    m=100
+    k=27000
+    c=9000
+    m=745.5
 
     dx1dt=x[1]
     dx2dt=(1/m)*(-c*x[1]-k*x[0])
@@ -58,12 +58,12 @@ def calculate_response(model_name,integration,x_init,time_array):
     return x
 
 t_start=0
-t_end=4
+t_end=10
 t_delta=0.01
 
 t=np.arange(t_start,t_end+t_delta,t_delta)
 
-x_init=np.array([[0,21]])
+x_init=np.array([[0,1.51]])
 
 
 #response=odeint(mymodel,x_init[0],t)
@@ -71,7 +71,7 @@ x_init=np.array([[0,21]])
 #omega=response[:,1]
 
 start=perf_counter()
-x = calculate_response(mymodel,RK4,x_init,t)
+x = calculate_response(custom_model,RK4,x_init,t)
 end=perf_counter()
 
 custom_theta=[]
@@ -82,7 +82,8 @@ for array in x:
 good_delta_t=0.001
 good_t=np.arange(t_start,t_end+good_delta_t,good_delta_t)
 
-answer_theta = 0.076*(1+4.079*np.exp(-3.66*good_t)-5.079*np.exp(-57.337*good_t))
+#answer_theta = 1.5*good_t*np.exp(-6*good_t)
+answer_theta=1.69*(np.exp(-5.59*good_t)-np.exp(-6.48*good_t))
 
 plt.subplot(211)
 plt.title("actual result")

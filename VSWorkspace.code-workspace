@@ -5,48 +5,43 @@
 			"path": "."
 		},
 		{
-			"name": "Discord_bot",
-			"path": "..\\Discord_bot"
+			"path": "../Fluids_and_Aero_3_Lab"
 		},
 		{
-			"name": "pokemon-emerald",
-			"path": "..\\pokemon-emerald"
+			"path": "../GET-IP"
 		},
 		{
-			"name": "LSF_scraper",
-			"path": "..\\LSF_scraper"
+			"path": "../Cecilrover"
 		},
 		{
-			"name": "JS-Html-stuff",
-			"path": "..\\JS-Html-stuff"
+			"path": "../Discord_bot"
 		},
 		{
-			"name": "GET-IP",
-			"path": "..\\GET-IP"
+			"path": "../LSF_scraper"
 		},
 		{
-			"path": "..\\Taylor-birthday-website"
+			"path": "../Taylor-birthday-website"
 		},
 		{
-			"path": "..\\Javascript"
+			"path": "../Pokemon-Emerald"
 		},
 		{
-			"path": "..\\ChineseShare"
+			"path": "../Cpp"
 		},
 		{
-			"path": "..\\Auto-VLC"
+			"path": "../Auto-VLC"
 		},
 		{
-			"path": "..\\LaTeX"
+			"path": "../Javascript"
 		},
 		{
-			"path": "..\\NewPC_searcher"
+			"path": "../LaTeX"
 		},
 		{
-			"path": "C:\\Users\\frase\\Desktop\\sim"
+			"path": "../NewPC_searcher"
 		},
 		{
-			"path": "..\\Chris_big_bitch"
+			"path": "../ChineseShare"
 		}
 	],
 	"settings": {

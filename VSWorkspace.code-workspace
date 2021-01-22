@@ -1,54 +1,60 @@
 {
 	"folders": [
 		{
-			"name": "python-programs",
+			"name": "Python-Programs",
 			"path": "."
 		},
 		{
+			"name": "Fluids_and_Aero_3_Lab",
 			"path": "../Fluids_and_Aero_3_Lab"
 		},
 		{
-			"path": "../GET-IP"
+			"name": "ChineseShare",
+			"path": "../ChineseShare"
 		},
 		{
-			"path": "../Cecilrover"
-		},
-		{
-			"path": "../Discord_bot"
-		},
-		{
-			"path": "../LSF_scraper"
-		},
-		{
-			"path": "../Taylor-birthday-website"
-		},
-		{
-			"path": "../Pokemon-Emerald"
-		},
-		{
-			"path": "../Cpp"
-		},
-		{
-			"path": "../Auto-VLC"
-		},
-		{
+			"name": "Javascript",
 			"path": "../Javascript"
 		},
 		{
+			"name": "Auto-VLC",
+			"path": "../Auto-VLC"
+		},
+		{
+			"name": "Cecilrover",
+			"path": "../Cecilrover"
+		},
+		{
+			"name": "Cpp",
+			"path": "../Cpp"
+		},
+		{
+			"name": "Discord_bot",
+			"path": "../Discord_bot"
+		},
+		{
+			"name": "GET-IP",
+			"path": "../GET-IP"
+		},
+		{
+			"name": "LaTeX",
 			"path": "../LaTeX"
 		},
 		{
+			"name": "LSF_scraper",
+			"path": "../LSF_scraper"
+		},
+		{
+			"name": "NewPC_searcher",
 			"path": "../NewPC_searcher"
 		},
 		{
-			"path": "../ChineseShare"
+			"name": "Pokemon-Emerald",
+			"path": "../Pokemon-Emerald"
+		},
+		{
+			"name": "Taylor-birthday-website",
+			"path": "../Taylor-birthday-website"
 		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Javascript",
-		"python.pythonPath": "C:\\Users\\frase\\anaconda3\\python.exe",
-		"cSpell.words": [
-			"mdot"
-		]
-	}
+	]
 }

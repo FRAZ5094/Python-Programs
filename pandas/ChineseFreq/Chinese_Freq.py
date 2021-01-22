@@ -10,15 +10,12 @@ try:
     i=path.index("/")
 except:
     pass
-
-if i!=0:
-    path=path[i::]
-
+path=path[i::]
 path=path[::-1]
-
-filename = "weibo_wordfreq.release_UTF-8.txt"
-
-#filename = f"{path}/weibo_wordfreq.release_UTF-8.txt"
+if i==0:
+    filename = "weibo_wordfreq.release_UTF-8.txt"
+else:
+    filename = f"{path}weibo_wordfreq.release_UTF-8.txt"
 
 print("loading...")
 start = time.perf_counter()
